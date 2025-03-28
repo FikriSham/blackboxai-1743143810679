@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MeerkatConverter" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primaryLight</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/onPrimaryLight</item>
+        <item name="colorSecondary">@color/secondaryLight</item>
+        <item name="colorOnSecondary">@color/onSecondaryLight</item>
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="Theme.MeerkatConverter.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.MeerkatConverter.AppBarOverlay" parent="ThemeOverlay.Material3.Dark.ActionBar" />
+
+    <style name="Theme.MeerkatConverter.PopupOverlay" parent="ThemeOverlay.Material3.Light" />
+
+    <!-- Dark mode attributes -->
+    <style name="Theme.MeerkatConverter.Dark" parent="Theme.MeerkatConverter">
+        <item name="colorPrimary">@color/primaryDark</item>
+        <item name="colorOnPrimary">@color/onPrimaryDark</item>
+        <item name="colorSecondary">@color/secondaryDark</item>
+        <item name="colorOnSecondary">@color/onSecondaryDark</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:background">@color/backgroundDark</item>
+    </style>
+</resources>
